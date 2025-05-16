@@ -1,0 +1,44 @@
+.offer-box {
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    position: relative;
+}
+
+.offer-box.hovered {
+    background-color: #ffe0ef;
+    border-color: #ff4c94;
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.size-color-fields {
+    display: none;
+    margin-top: 15px;
+}
+
+.offer-box.hovered .size-color-fields {
+    display: block;
+}
+
+.discount-badge {
+    background-color: #ff4c94;
+    color: white;
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.btn-cart {
+background-color: #ff4c94 !important;
+color: white !important;
+font-weight: bold !important;
+width: 100%;
+}
+
+.btn-cart:hover {
+background-color: #e83e8c;
+}
