@@ -9,8 +9,8 @@
 }
 
 .offer-box.hovered {
-    background-color: #ffe0ef;
-    border-color: #ff4c94;
+    background-color: #aac7ac;
+    border-color: #073b1d;
     transform: scale(1.02);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
@@ -25,20 +25,20 @@
 }
 
 .discount-badge {
-    background-color: #ff4c94;
-    color: white;
-    font-size: 0.8rem;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
     padding: 3px 8px;
     border-radius: 5px;
     margin-left: 10px;
 }
 .btn-cart {
-background-color: #ff4c94 !important;
+background-color: #073b1d !important;
 color: white !important;
 font-weight: bold !important;
 width: 100%;
 }
 
 .btn-cart:hover {
-background-color: #e83e8c;
+background-color: #073b1d;
 }
